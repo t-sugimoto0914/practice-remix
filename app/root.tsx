@@ -29,6 +29,7 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: appStylesHref },
 ];
 export default function App() {
+  console.log("");
   const { contacts } = useLoaderData<typeof loader>();
   const navigation = useNavigation();
   const searching =
